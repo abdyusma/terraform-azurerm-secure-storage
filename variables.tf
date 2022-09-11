@@ -3,5 +3,5 @@ variable "existing_resource_group_name" {
 }
 
 variable "storage_account_name" {
-    description = "Unique all-lowercase value with no space"
+  description = "Unique all-lowercase value with no space"
 }
