@@ -14,7 +14,7 @@ resource "azurerm_storage_account" "main" {
 }
 
 resource "azurerm_storage_account_network_rules" "github_actions" {
-  storage_account_id = azurerm_storage_account.example.id
+  storage_account_id = azurerm_storage_account.main.id
 
   default_action = "Allow"
   ip_rules = [
