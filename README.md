@@ -28,6 +28,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_allowed_ip"></a> [allowed\_ip](#input\_allowed\_ip) | List of allowed public IP or IP ranges in CIDR Format. | `list` | n/a | yes |
 | <a name="input_existing_resource_group_name"></a> [existing\_resource\_group\_name](#input\_existing\_resource\_group\_name) | Existing resource group to hosts the Azure storage account. | `any` | n/a | yes |
 | <a name="input_storage_account_name"></a> [storage\_account\_name](#input\_storage\_account\_name) | Unique all-lowercase value with no space | `any` | n/a | yes |
 
