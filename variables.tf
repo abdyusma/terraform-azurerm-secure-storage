@@ -8,5 +8,5 @@ variable "storage_account_name" {
 
 variable "allowed_ip" {
   description = "List of allowed public IP or IP ranges in CIDR Format."
-  type        = list
+  type        = list(any)
 }
