@@ -16,8 +16,8 @@ resource "azurerm_storage_account" "main" {
 resource "azurerm_storage_account_network_rules" "github_actions" {
   storage_account_id = azurerm_storage_account.example.id
 
-  default_action             = "Allow"
-  ip_rules                   = [
+  default_action = "Allow"
+  ip_rules = [
     "13.64.0.0/16",
     "13.65.0.0/16",
     "13.66.0.0/17",
@@ -2032,5 +2032,5 @@ resource "azurerm_storage_account_network_rules" "github_actions" {
     "208.83.5.224/29",
     "209.240.212.0/23"
   ]
-  bypass                     = ["Metrics"]
+  bypass = ["Metrics"]
 }
