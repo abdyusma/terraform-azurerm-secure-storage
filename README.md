@@ -1,6 +1,9 @@
 # terraform-azurerm-secure-storage
 Terraform module to create a secure Azure storage.
 
+* Public network access is disabled by default.
+* Shared access key is disabled by default.
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
